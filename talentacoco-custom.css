@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.bg-green {
+    background: linear-gradient(#008349, #003533);
+    line-height: 0px !important;
+    margin-top: -56px;
+}
+
+.bg-green p {
+    margin-bottom: 0;
+}
+
+.heading-title {
+    color: #66A007;
+    margin-top: 0px !important;
+}
+
+.heading-title-sub {
+    color: #095104;
+    margin-top: -35px;
+}
+
+.image-slider {
+    padding-top: 20px;
+}
+
+.talentacoco-heading {
+    color: #ccc !important;
+    font-size: 1em;
+}
+
+.talentacoco-mid-nav {
+    background: linear-gradient(#FCAA2A, #D48035);
+    line-height: 14px;
+    color: black !important;
+}
+
+.talentacoco-mid-heading {
+    color: black !important;
+    font-size: 15px;
+}
+
+.talentacoco-topnav-right {
+    font-size: 0.8em;
+}

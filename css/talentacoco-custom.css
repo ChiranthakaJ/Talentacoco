@@ -6,6 +6,7 @@
 
 body {
     padding-top: 54px;
+    background-color: #e8e8e8;
 }
 
 @media (min-width: 992px) {
@@ -16,8 +17,9 @@ body {
 
 .bg-green {
     background: linear-gradient(#008349, #003533);
-    line-height: 0px !important;
+    /*line-height: 0px !important;*/
     margin-top: -56px;
+    height: 25px;
 }
 
 .bg-green p {
@@ -56,4 +58,10 @@ body {
 
 .talentacoco-topnav-right {
     font-size: 0.8em;
+    margin-top: -5px !important;
+}
+
+.main-wrapper {
+    max-width: 79% !important;
+    margin: auto;
 }

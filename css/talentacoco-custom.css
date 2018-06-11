@@ -1,67 +1,99 @@
-/*!
+            /*!
  * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
  */
-
-body {
-    padding-top: 54px;
-    background-color: #e8e8e8;
-}
-
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
-}
-
-.bg-green {
-    background: linear-gradient(#008349, #003533);
-    /*line-height: 0px !important;*/
-    margin-top: -56px;
-    height: 25px;
-}
-
-.bg-green p {
-    margin-bottom: 0;
-}
-
-.heading-title {
-    color: #66A007;
-    margin-top: 0px !important;
-}
-
-.heading-title-sub {
-    color: #095104;
-    margin-top: -35px;
-}
-
-.image-slider {
-    padding-top: 20px;
-}
-
-.talentacoco-heading {
-    color: #ccc !important;
-    font-size: 1em;
-}
-
-.talentacoco-mid-nav {
-    background: linear-gradient(#FCAA2A, #D48035);
-    line-height: 14px;
-    color: black !important;
-}
-
-.talentacoco-mid-heading {
-    color: black !important;
-    font-size: 15px;
-}
-
-.talentacoco-topnav-right {
-    font-size: 0.8em;
-    margin-top: -5px !important;
-}
-
-.main-wrapper {
-    max-width: 79% !important;
-    margin: auto;
-}
+            
+            body {
+                padding-top: 54px;
+                background-color: #e8e8e8;
+            }
+            
+            @media (min-width: 992px) {
+                body {
+                    padding-top: 56px;
+                }
+            }
+            
+            .bg-green {
+                background: linear-gradient(#008349, #003533);
+                /*line-height: 0px !important;*/
+                margin-top: -56px;
+                height: 25px;
+                border-radius: 4px;
+            }
+            
+            .bg-green p {
+                margin-bottom: 0;
+            }
+            
+            .heading-title {
+                color: #66A007;
+                margin-top: 0px !important;
+            }
+            
+            .heading-title-sub {
+                color: #095104;
+                margin-top: -35px;
+            }
+            
+            .image-slider {
+                padding-top: 20px;
+            }
+            
+            .talentacoco-heading {
+                color: #ccc !important;
+                font-size: 1em;
+            }
+            
+            .talentacoco-mid-nav {
+                background: linear-gradient(#FCAA2A, #D48035);
+                line-height: 14px;
+                color: black !important;
+                border-radius: 4px;
+            }
+            
+            .talentacoco-mid-heading {
+                color: black !important;
+                font-size: 15px;
+            }
+            
+            .talentacoco-topnav-right {
+                font-size: 0.8em;
+                margin-top: -5px !important;
+            }
+            
+            .main-wrapper {
+                max-width: 79% !important;
+                margin: auto;
+            }
+            
+            .ml-auto {
+                margin: auto !important;
+            }
+            
+            .talentacoco-mid-nav .ml-auto li {
+                width: 260px !important;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .bg-green .nav-link {
+                color: rgb(255, 255, 255) !important;
+            }
+            
+            .bg-green a.nav-link:hover {
+                color: rgba(255, 255, 255, .5) !important;
+            }
+            
+            .talentacoco-mid-nav .nav-link {
+                color: rgb(10, 10, 10) !important;
+                text-align: center;
+            }
+            
+            .talentacoco-mid-nav .nav-link:hover {
+                background-color: #e89435;
+                background: linear-gradient(#e89435, #fbaa29);
+                color: rgb(255, 255, 255) !important;
+                border-radius: 4px;
+            }

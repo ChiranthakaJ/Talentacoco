@@ -48,7 +48,7 @@
             
             .talentacoco-mid-nav {
                 background: linear-gradient(#FCAA2A, #D48035);
-                line-height: 14px;
+                line-height: 10px;
                 color: black !important;
                 border-radius: 4px;
             }
@@ -74,8 +74,8 @@
             
             .talentacoco-mid-nav .ml-auto li {
                 width: 260px !important;
-                margin: 0;
-                padding: 0;
+                /*margin: 0;
+                padding: 0;*/
             }
             
             .bg-green .nav-link {
@@ -92,8 +92,11 @@
             }
             
             .talentacoco-mid-nav .nav-link:hover {
-                background-color: #e89435;
-                background: linear-gradient(#e89435, #fbaa29);
+                /*background-color: #d37b16;
+                background: linear-gradient(#d37b16, #e89435);*/
                 color: rgb(255, 255, 255) !important;
                 border-radius: 4px;
+                /*margin-top: -5px !important;
+                margin-bottom: -35px !important;*/
+                /*height: 30px;*/
             }

@@ -1,0 +1,88 @@
+.navbar-default {
+    background-color: transparent;
+    background: linear-gradient(#008349, #003533);
+}
+
+.navbar {
+    min-height: 32px !important
+}
+
+.navbar-nav>li>a,
+.navbar-brand {
+    padding-top: 2px !important;
+    padding-bottom: 0 !important;
+    height: 25px;
+}
+
+.navbar {
+    min-height: 20px !important;
+}
+
+.navbar-toggle {
+    padding: 0 0;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+    /*background-color: #082D29;*/
+    -webkit-animation-name: greenfade;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: greenfade;
+    animation-duration: 2s;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ccc;
+}
+
+.navbar-nav>li>a {
+    border-left: dotted 1px #ccc;
+}
+
+
+/* Green Navigation Coolor Fade*/
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes greenfade {
+    from {
+        /*background: linear-gradient(#008349, #003533);*/
+        background-color: #92B901;
+    }
+    to {
+        background-color: #082D29;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes greenfade {
+    from {
+        /*background: linear-gradient(#008349, #003533);*/
+        background-color: #92B901;
+    }
+    to {
+        background-color: #082D29;
+    }
+}
+
+.heading-title {
+    color: #66A007;
+    /*margin-top: 0px !important;*/
+}
+
+.heading-title-sub {
+    color: #095104;
+    /*margin-top: -20px;*/
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+    background-color: transparent;
+}

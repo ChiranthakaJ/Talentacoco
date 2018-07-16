@@ -5,7 +5,6 @@
  */
             
             body {
-                padding-top: 54px;
                 background-color: #e8e8e8;
             }
             
@@ -16,11 +15,15 @@
             }
             
             .bg-green {
-                background: linear-gradient(#008349, #003533);
+                background: linear-gradient(#008349, #003533) !important;
                 /*line-height: 0px !important;*/
-                margin-top: -56px;
+                /*margin-top: -56px;
                 height: 25px;
-                border-radius: 4px;
+                border-radius: 4px;*/
+            }
+            
+            .navbar-default {
+                background: linear-gradient(#008349, #003533) !important;
             }
             
             .bg-green p {

@@ -1,6 +1,17 @@
-.navbar-default {
+/*.navbar-default {
     background-color: transparent;
     background: linear-gradient(#008349, #003533);
+}*/
+
+.nav-green {
+    background-color: transparent;
+    background: linear-gradient(#008349, #003533);
+}
+
+.nav-orange {
+    background-color: transparent;
+    /*background: linear-gradient(#008349, #003533);*/
+    background: linear-gradient(#FCAA2A, #D48035);
 }
 
 .navbar {
@@ -24,15 +35,19 @@
     margin-bottom: 0;
 }
 
+.navbar-default .navbar-nav>li>a {
+    -webkit-transition-property: background-color;
+    /* Safari */
+    -webkit-transition-duration: 0.5s;
+    /* Safari */
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
     color: #ffffff;
-    /*background-color: #082D29;*/
-    -webkit-animation-name: greenfade;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s;
-    /* Safari 4.0 - 8.0 */
-    animation-name: greenfade;
-    animation-duration: 2s;
+    transition-delay: 2s;
+    background-color: #082D29;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -43,46 +58,10 @@
     border-left: dotted 1px #ccc;
 }
 
-
-/* Green Navigation Coolor Fade*/
-
-
-/* Safari 4.0 - 8.0 */
-
-@-webkit-keyframes greenfade {
-    from {
-        /*background: linear-gradient(#008349, #003533);*/
-        background-color: #92B901;
-    }
-    to {
-        background-color: #082D29;
-    }
+.top-banner {
+    margin-top: -30px;
 }
 
-
-/* Standard syntax */
-
-@keyframes greenfade {
-    from {
-        /*background: linear-gradient(#008349, #003533);*/
-        background-color: #92B901;
-    }
-    to {
-        background-color: #082D29;
-    }
-}
-
-.heading-title {
-    color: #66A007;
-    /*margin-top: 0px !important;*/
-}
-
-.heading-title-sub {
-    color: #095104;
-    /*margin-top: -20px;*/
-}
-
-.navbar-default .navbar-toggle {
-    border: none;
-    background-color: transparent;
+.nav-orange>.navbar-collapse {
+    height: 40px !important;
 }

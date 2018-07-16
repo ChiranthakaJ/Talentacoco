@@ -62,6 +62,29 @@
     margin-top: -30px;
 }
 
-.nav-orange>.navbar-collapse {
+
+/*.nav-orange>.navbar-collapse {
     height: 40px !important;
+}*/
+
+.nav-orange {
+    min-height: 43px !important;
+}
+
+.navbar-left>li {
+    float: none !important;
+    display: inline-block !important;
+}
+
+.nav-tabs {
+    border: none !important;
+}
+
+.nav-tabs>li>a {
+    color: #823610 !important;
+    font-size: 17px;
+}
+
+.nav-tabs>li>a:hover {
+    color: #465867 !important;
 }

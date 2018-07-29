@@ -88,3 +88,17 @@
 .nav-tabs>li>a:hover {
     color: #465867 !important;
 }
+
+.carousel-caption>h2 {
+    color: black !important;
+}
+
+.pull-right {
+    margin-right: 3%;
+}
+
+.green-tiles {
+    background: linear-gradient(#008349, #003533);
+    float: left;
+    margin-right: 10px;
+}

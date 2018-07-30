@@ -3,6 +3,12 @@
     background: linear-gradient(#008349, #003533);
 }*/
 
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px !important;
+    line-height: 26px !important;
+}
+
 .nav-green {
     background-color: transparent;
     background: linear-gradient(#008349, #003533);
@@ -101,4 +107,52 @@
     background: linear-gradient(#008349, #003533);
     float: left;
     margin-right: 10px;
+    width: 30% !important;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.employee-tile {
+    margin-left: 4%;
+}
+
+.green-tiles>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.green-tiles>h4 {
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+    margin-bottom: 12%;
+}
+
+.green-tiles>p {
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    font-size: 1.2em;
+    margin-bottom: 15%;
+}
+
+.pull-left {
+    padding-top: 1.2%;
+}
+
+.pull-right {
+    padding-top: 1%;
+}
+
+.mid-intro>h2 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.mid-intro>p {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
 }

@@ -66,6 +66,24 @@ body {
 
 .top-banner {
     margin-top: -30px;
+    background-image: url("../Images/Banners/Top-Banner-Image-Stripe-02.jpg")
+    /*background-color: yellow;*/
+}
+
+.top-banner>h1 {
+    margin-left: 35%;
+    /*webkit-text-fill-color: linear-gradient(#008349, #003533);*/
+    background: -webkit-linear-gradient(#003533, #c6d142);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px !important;
+}
+
+.top-banner>h2 {
+    margin-left: 40%;
+    font-size: 30px !important;
+    margin-top: -1% !important;
+    color: #03420c !important;
 }
 
 
@@ -155,4 +173,14 @@ body {
     text-align: center;
     padding-top: 1%;
     padding-bottom: 2%;
+}
+
+h2,
+h3,
+p {
+    color: #003533;
+}
+
+.bottom-verse {
+    margin-bottom: 5%;
 }
